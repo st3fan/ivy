@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="org.crankycoder" module="SimpleKML" revision="1.0" status="integration" publication="20141006235659">
+    <description>A KML serializer for Android</description>
+  </info>
+  <configurations>
+    <conf name="default" visibility="public" extends="runtime"/>
+    <conf name="runtime" visibility="public"/>
+  </configurations>
+  <publications>
+    <artifact name="SimpleKML" type="jar" ext="jar" conf="runtime"/>
+    <artifact name="SimpleKML" type="source" ext="jar" conf="runtime" m:classifier="source" xmlns:m="http://ant.apache.org/ivy/maven"/>
+  </publications>
+  <dependencies/>
+</ivy-module>
